@@ -1,0 +1,27 @@
+.logoSearch{
+display: flex;
+gap: 0.75rem;
+align-items: center;
+}
+.search{ 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--inputColor);
+}
+
+.search>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.search-icon:hover{
+    cursor: pointer;
+}

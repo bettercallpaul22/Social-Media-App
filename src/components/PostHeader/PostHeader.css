@@ -1,0 +1,46 @@
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    height: 7rem;
+    flex-direction: column;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    }
+    
+    .img-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .menu{
+        display: flex;
+      font-size: small;
+        justify-content: space-around;
+      
+        align-items: center;
+        margin-left: 5rem;
+    }
+    .menu>span:hover{
+        cursor: pointer;
+        transform: scaleX(1.1);
+        transition: ease-in-out;
+       
+    }
+    
+    .input{
+        width: 35rem;
+        height: 2.5rem;
+        background-color:rgb(231, 225, 225);
+       border: none;
+        outline: none;
+        border-radius: 8px;
+        outline: none;
+       
+    }
+    
+    .post-side-image{
+        height: 3rem;
+        border-radius: 50%;
+    }

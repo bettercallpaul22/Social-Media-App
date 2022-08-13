@@ -1,0 +1,24 @@
+.form-info{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-self: center;
+    gap: 1rem;
+}
+
+.info-input{
+    width: 14rem;
+    height: 2.6rem;
+    background-color: var(--inputColor);
+    border: none;
+}
+
+.form-input{
+    display: flex;
+    gap: 0.75rem;
+}
+
+.region{
+    display: flex;
+    gap: 0.75rem;
+}

@@ -1,0 +1,28 @@
+.nav{
+  
+    display: flex;
+    height: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.75rem;
+    background-color: var(--cardColor);
+}
+
+.home-icon{
+   color: black;
+
+}
+
+.home-icon:hover{
+    transform: scaleX(1.2);
+}
+
+.nav>:nth-child(2):hover{
+    transform: scaleX(1.2);
+}
+.nav>:nth-child(3):hover{
+    transform: scaleX(1.2);
+}
+.nav>:nth-child(4):hover{
+    transform: scaleX(1.2);
+}
